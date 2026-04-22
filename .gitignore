@@ -1,0 +1,40 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ── Dataset (download separately — see data/README.md) ────────────────────────
+casting_512x512/
+
+# ── Model weights (not provided — retrain with scripts/run_pipeline.py) ───────
+outputs/*/best_model.pt
+
+# ── LaTeX intermediates ───────────────────────────────────────────────────────
+report/*.tex
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.toc
+report/*.synctex.gz
+
+# ── Editor / OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.docx
+.claude/
+.docx_extract/

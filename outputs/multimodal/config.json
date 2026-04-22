@@ -1,0 +1,20 @@
+{
+  "project_root": "C:\\Users\\moadh\\Desktop\\CDI_CDD\\Project\\Projet1",
+  "dataset_dir": "C:\\Users\\moadh\\Desktop\\CDI_CDD\\Project\\Projet1\\casting_512x512",
+  "output_dir": "C:\\Users\\moadh\\Desktop\\CDI_CDD\\Project\\Projet1\\outputs\\multimodal",
+  "image_size": 224,
+  "batch_size": 24,
+  "max_epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-05,
+  "dropout_fusion_1": 0.4,
+  "dropout_fusion_2": 0.3,
+  "dropout_sensor": 0.3,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "seed": 42,
+  "num_workers": 0,
+  "patience": 8,
+  "pretrained": true,
+  "freeze_backbone_epochs": 3
+}

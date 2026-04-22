@@ -1,0 +1,119 @@
+{
+  "n_test": 195,
+  "n_bootstrap": 1000,
+  "thresholds": {
+    "image": 0.5,
+    "sensor": 0.4799999999999999,
+    "multimodal": 0.5
+  },
+  "bootstrap_ci": {
+    "image": {
+      "f1": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "auc_roc": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      }
+    },
+    "sensor": {
+      "f1": {
+        "mean": 0.8513,
+        "ci_lo": 0.7957,
+        "ci_hi": 0.8987,
+        "std": 0.0265
+      },
+      "auc_roc": {
+        "mean": 0.8835,
+        "ci_lo": 0.835,
+        "ci_hi": 0.928,
+        "std": 0.0239
+      },
+      "recall": {
+        "mean": 0.7616,
+        "ci_lo": 0.6814,
+        "ci_hi": 0.8346,
+        "std": 0.0395
+      },
+      "precision": {
+        "mean": 0.9664,
+        "ci_lo": 0.9247,
+        "ci_hi": 1.0,
+        "std": 0.019
+      }
+    },
+    "multimodal": {
+      "f1": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "auc_roc": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0,
+        "std": 0.0
+      }
+    }
+  },
+  "mcnemar": {
+    "image_vs_sensor": {
+      "b": 31,
+      "c": 0,
+      "chi2": 29.0323,
+      "p_value": 0.0,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "interpretation": "Diff\u00e9rence significative (p < 0.05)"
+    },
+    "image_vs_multimodal": {
+      "b": 0,
+      "c": 0,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significant_at_05": false,
+      "significant_at_01": false,
+      "interpretation": "Accord parfait (b+c=0) \u2014 test non applicable",
+      "note": "b+c=0, no discordant pairs"
+    },
+    "sensor_vs_multimodal": {
+      "b": 0,
+      "c": 31,
+      "chi2": 29.0323,
+      "p_value": 0.0,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "interpretation": "Diff\u00e9rence significative (p < 0.05)"
+    }
+  }
+}

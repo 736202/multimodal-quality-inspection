@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+Pillow>=10.4
+torch>=2.4
+torchvision>=0.19
+tqdm>=4.66
+shap>=0.45
+
